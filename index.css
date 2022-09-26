@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    background-color: rgb(157, 196, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+
+}
+
+#bbuscador {
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+#ciudad {
+    box-shadow: 3px 3px 5px grey;
+}
+
+article {
+    display: flex;
+    height: 50%;
+}
+
+#mapa {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(195, 219, 255);
+}
+
+#pronostico {
+    width: 60%;
+    background-color: rgb(195, 219, 255);
+    padding-top: 2%;
+}
+
+#pronostico>div>label {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+    padding-left: 5%;
+}
+
+#pronostico>div {
+    padding-top: 2%;
+}
+
+#clima>div>label {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+    padding-left: 5%;
+}
+
+#clima>div {
+    padding-top: 2%;
+}
+
+#clima>img {
+    padding-left: 13%;
+    width: 80px;
+}
+
+hr {
+    height: 2px;
+    width: 16%;
+    border: 0;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 2%;
+    background-color: black;
+}
